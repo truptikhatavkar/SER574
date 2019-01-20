@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 JAN 2019 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 JAN 2019 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,29 +1124,26 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 69.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 86.
+(Font)              scaled to size 9.0pt on input line 84.
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 89.
+surrounding objects on input line 86.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 89.
+surrounding objects on input line 86.
 
-<PBCollab.png, id=44, 469.755pt x 238.64156pt>
+<PBCollab.png, id=48, 469.755pt x 238.64156pt>
 File: PBCollab.png Graphic file (type png)
 <use PBCollab.png>
-Package pdftex.def Info: PBCollab.png  used on input line 90.
+Package pdftex.def Info: PBCollab.png  used on input line 87.
 (pdftex.def)             Requested size: 253.14749pt x 128.60233pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 90--91
+Overfull \hbox (12.0pt too wide) in paragraph at lines 87--88
  [][] 
  []
 
-
-Underfull \vbox (badness 3179) has occurred while \output is active []
-
- [1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./PBCollab.png>] (./agile-teams-collaboration.bbl
 LaTeX Info: Redefining \tempurl on input line 82.
@@ -1158,25 +1155,25 @@ Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 132.
+(Font)              scaled to size 9.0pt on input line 147.
 [2.2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (./agile-teams-collaboration.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `agile-teams-collaboration.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: A103FF4996C6F9B351DFC88AE2146343;1189.
+(rerunfilecheck)             Checksum: 35427C1FCC70AE62EBBFD5420EFB1D76;1384.
  ) 
 Here is how much of TeX's memory you used:
- 18148 strings out of 492649
- 273310 string characters out of 6129622
+ 18149 strings out of 492649
+ 273327 string characters out of 6129622
  489316 words of memory out of 5000000
- 21323 multiletter control sequences out of 15000+600000
- 123082 words of font info for 223 fonts, out of 8000000 for 9000
+ 21324 multiletter control sequences out of 15000+600000
+ 122989 words of font info for 223 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,924b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,924b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 }{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{
@@ -1189,10 +1186,10 @@ neT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLib
 ertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/L
 inLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/
 txsys.pfb>
-Output written on agile-teams-collaboration.pdf (2 pages, 365300 bytes).
+Output written on agile-teams-collaboration.pdf (2 pages, 366804 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 40522 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 40530 words of extra memory for PDF output out of 42996 (max. 10000000)
 

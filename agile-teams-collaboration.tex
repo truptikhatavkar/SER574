@@ -21,7 +21,7 @@
 
 %
 % The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.
-\title{Collaborating Agile Teams}
+\title{Collaborating Agile Teams: Scrum of Scrums}
 
 %
 % The "author" command and its associated commands are used to define the authors and their affiliations.
@@ -49,7 +49,7 @@
 %
 % The abstract is a short summary of the work to be presented in the article.
 \begin{abstract}
-Agile development model has its own advantages such as, flexibility, transperance, early and predictable delivery and it focuses on users. Taking this into consideration, large projects can be developed using agile techniques by dividing them into different components and distributing the components to different teams. This is generally termed as scrum of scrums. In such large project, each team should take the full responsibility of their own component and then the components are interfaced to build the whole system. The main challenge is to maintain minimum dependencies among teams as possible. This paper suggests methods to achieve successful large agile project. Also, methods to overcome architecure or design related risks are also put forward.
+Agile development model has its own advantages such as, flexibility, transperance, early and predictable delivery and it focuses on users. Taking this into consideration, large projects can be developed using agile techniques by dividing them into different components and distributing the components to different teams. This is generally termed as scrum of scrums. In such large project, each team should take the full responsibility of their own component and then the components are interfaced to build the whole system. The main challenge is to maintain minimum dependencies among teams as possible. This paper suggests methods to achieve successful large agile project and the challenges faced. Also, methods to overcome architecure or design related risks are also put forward.
 \end{abstract}
 
 
@@ -76,16 +76,13 @@ This paper discusses some ways of achieving the practice of software development
 
 The paper is structured as follows : Section 2 discusses the methods of obtaining a large scale agile project which is distributed among many teams, what are some common practices to be followed among different team so that each one has the feel of the project, its design and architecture\cite{de2010conducting} and agile software development methodology as well. Section 3 concludes it and list down some benefits of this software development process.
 
-
 \section{Main}
-\subsection{Methods to achieve successful large scale agile project}
+
+\subsection{Methods to achieve successful Scrum of Scrums}
 The main challenges for working on a large project using multiple agile teams is communication, dependencies between components and interfacing those components. To achieve a successful project, following methods can be useful. 
-
-
 \begin{itemize}
 \item Separate Product Backlog for each team
 \\As shown in Figure \ref{fig:PBCollab}, it is very important that every team should have a strong product backlog in agile when working in a distributed envirenment. But, clear separation of work is equally important. Every day to day operations should be separated among the teams. Overlapping situations should be planned during the cross team meetings.
-
 \begin{figure}[H]
   \includegraphics[width=0.5\textwidth]{PBCollab}
   \caption{Collaboration of teams and their backlogs.}
@@ -101,9 +98,12 @@ The main challenges for working on a large project using multiple agile teams is
 
 \item Face to face communication 
 \\Using tools for communication is effective, but many times there are broken communications due to various technical issues such as poor connections, fault in the devices, etc. To overcome these, regular cross teams face to face communications are also important.
+
+\item Fixed Architecture/Design
+\\As there are multiple teams working on the same project, there can be a confusion with architecture and design of the system. It can get messed up as everyone would not have knowledge of everything. Thus, development should be done, keeping this in mind.
 \end{itemize}
 
-\subsection{Architecture/Design for distributed agile project}
+\subsection{Architecture/Design for Scrum of Scrums }
 Architecture defines the structure of the project. A well defined architecure makes a base for a succesful project. As multiple teams work on a single project, it is important to have a fixed architecture so that different teams can work on different components of the architecture. If there is no fixed single plan, interfacing of the components would be a difficult task. Also, the architecure can get messed up if multiple teams update it. The integrity of the whole project can be affected if architecture is messed up.
 
 
@@ -112,11 +112,26 @@ To overcome this problem, there should be a single Chief Architect (or two, work
 
 Another method would be to crete the Architecture group. It is composed of each team's most skilled person. This group handles all the arcitectural issues rather than one person handling them. The group should not exceed more than 20 people, else communication problem arises. The group understands the subsystem's relationships and the architecure as a whole. Thus, the group decides how each team works and handles the project. 
 
+\subsection{Challenges faced during Scrum of Scrums}
+\begin{itemize}
+\item Communication issues
+\\As there is informal communication among agile teams, there can be lack of communication. It would be difficult to express ideas to other teams. This can lead to lack of trust.
+
+\item Lack of coordination
+\\All teams would not be on same page, and that can be a problem while interfacing the components. Also, all developers would not have idea about the whole project, which can be an obstacle in the development. 
+
+\item Handling dependencies
+\\As different components are being developed by different teams, dependencies need to handled by communicating with other teams which is a complicated task. 
+
+\item Loss of Centralized power
+\\Using this technique, there is no centralized entity that makes decisions and distribute tasks.
+\end{itemize}
+
 
 \section{Conclusion}
 With different teams working on a same project using the agile methodology, it is possible to make the best use of available talent across the organization and not outsourcing it while increasing the cost of the project. It is a conscious decision to include multiple teams in one project considering the different strategies, talent, focus and management of different teams can be factor in success, delivery time or may cause dysfunctioning but these factors needs to be clearly understood beforehanded.
 
-There are many benefits of using different agile temas for software development. We can track the progess and evaluate the problems early in the stage, also handles the problem of isolated teams where there are difficulties in communication. It can help in sharing knowledge between different domains while different teams work together and look after the development with all aspects
+There are many benefits of using different agile teams for software development. We can track the progess and evaluate the problems early in the stage, also handles the problem of isolated teams where there are difficulties in communication. It can help in sharing knowledge between different domains while different teams work together and look after the development with all aspects
 
 With the benefits comes some challenges as well. Since there is informal communication in agile software development, it can lead to loss of information among teams and with this there can be a lack of trust. There is a lot of coordination required so that every team is on the same page and knows excatly at every step what is happening within the project. Each team should be making equal efforts towards the project development.
 
