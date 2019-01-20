@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{2}
+\begin{thebibliography}{5}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,17 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{De~Diana, Kon, and Gerosa}{De~Diana
+  et~al\mbox{.}}{2010}]%
+        {de2010conducting}
+\bibfield{author}{\bibinfo{person}{Mauricio Jos{\'e} de~Oliveira De~Diana},
+  \bibinfo{person}{Fabio Kon}, {and} \bibinfo{person}{Marco~Aur{\'e}lio
+  Gerosa}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Conducting an Architecture Group in a Multi-team
+  Agile Environment}. In \bibinfo{booktitle}{\emph{Brazilian workshop on}}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Kniberg and Ivarsson}{Kniberg and
   Ivarsson}{2012}]%
         {HenrikK}
@@ -50,6 +61,26 @@
 \url{https://creativeheldstab.com/wp-content/uploads/2014/09/scaling-agile-spotify-11.pdf}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Moe, \v{S}mite, \v{S}\={a}blis, B\"{o}rjesson,
+  and Andr{\'e}asson}{Moe et~al\mbox{.}}{2014}]%
+        {Moe:2014:NLD:2652524.2652584}
+\bibfield{author}{\bibinfo{person}{Nils~Brede Moe}, \bibinfo{person}{Darja
+  \v{S}mite}, \bibinfo{person}{Aivars \v{S}\={a}blis},
+  \bibinfo{person}{Anne-Lie B\"{o}rjesson}, {and} \bibinfo{person}{Pia
+  Andr{\'e}asson}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Networking in a Large-scale Distributed Agile
+  Project}. In \bibinfo{booktitle}{\emph{Proceedings of the 8th ACM/IEEE
+  International Symposium on Empirical Software Engineering and Measurement}}
+  \emph{(\bibinfo{series}{ESEM '14})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{12},
+  \bibinfo{numpages}{8}~pages.
+\newblock
+\showISBNx{978-1-4503-2774-9}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2652524.2652584}
+\showDOI{\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Paasivaara, Durasiewicz, and
@@ -66,6 +97,20 @@
 \urldef\tempurl%
 \url{https://doi.org/10.1109/ICGSE.2008.38}
 \showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Parekh}{Parekh}{2015}]%
+        {SunitP}
+\bibfield{author}{\bibinfo{person}{Sunit Parekh}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Collaboration Techniques for Large Distributed Agile
+  Projects}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.thoughtworks.com/insights/blog/collaboration-techniques-large-distributed-agile-projects}
+\showURL{%
+Retrieved Jan 18, 2018 from \tempurl}
 
 
 \end{thebibliography}

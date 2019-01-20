@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 JAN 2019 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 JAN 2019 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1133,7 +1133,7 @@ surrounding objects on input line 89.
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 89.
 
-<PBCollab.png, id=41, 469.755pt x 238.64156pt>
+<PBCollab.png, id=44, 469.755pt x 238.64156pt>
 File: PBCollab.png Graphic file (type png)
 <use PBCollab.png>
 Package pdftex.def Info: PBCollab.png  used on input line 90.
@@ -1148,7 +1148,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 90--91
  <./PBCollab.png>] (./agile-teams-collaboration.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \tempurl on input line 67.
+LaTeX Info: Redefining \tempurl on input line 82.
+LaTeX Info: Redefining \tempurl on input line 98.
+LaTeX Info: Redefining \tempurl on input line 111.
 )
 
 Package balance Warning: You have called \balance in second column
@@ -1167,11 +1169,11 @@ ed.
 (rerunfilecheck)             Checksum: A103FF4996C6F9B351DFC88AE2146343;1189.
  ) 
 Here is how much of TeX's memory you used:
- 18108 strings out of 492649
- 272370 string characters out of 6129622
- 489710 words of memory out of 5000000
- 21308 multiletter control sequences out of 15000+600000
- 120812 words of font info for 208 fonts, out of 8000000 for 9000
+ 18148 strings out of 492649
+ 273310 string characters out of 6129622
+ 489899 words of memory out of 5000000
+ 21323 multiletter control sequences out of 15000+600000
+ 123082 words of font info for 223 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,11n,94p,924b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
@@ -1186,10 +1188,10 @@ neT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLib
 ertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/L
 inLibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/
 txsys.pfb>
-Output written on agile-teams-collaboration.pdf (2 pages, 359228 bytes).
+Output written on agile-teams-collaboration.pdf (2 pages, 365829 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  40522 words of extra memory for PDF output out of 42996 (max. 10000000)
 
