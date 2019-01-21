@@ -16,12 +16,12 @@
 %%%%%%%%%%%%%%5
 \usepackage{lipsum}
 
-
+\renewcommand\footnotetextcopyrightpermission[1]{}
 \begin{document}
 
 %
 % The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.
-\title{Collaborating Agile Teams: Scrum of Scrums}
+\title{Collaborating Multiple Agile Teams: Scrum of Scrums}
 
 %
 % The "author" command and its associated commands are used to define the authors and their affiliations.
@@ -56,7 +56,7 @@ Agile development model has its own advantages such as, flexibility, transperanc
 %
 % Keywords. The author(s) should pick words that accurately describe the work being
 % presented. Separate the keywords with commas.
-\keywords{agile, components, dependencies, collaboration, communication}
+\keywords{agile, components, dependencies, collaboration, communication, scrum, interaction}
 
 %
 % A "teaser" image appears between the author and affiliation information and the body 
@@ -68,9 +68,8 @@ Agile development model has its own advantages such as, flexibility, transperanc
 % the first part of the formatted document.
 \maketitle
 
-
 \section{Introduction}
-For developing any business, Software development is a core component \cite{HenrikK}. With great competition There has been a great investment in building high quality software. A software is developed in multi-site with multiple teams involved with a distributed environment. As discussed in \cite{4638656}Past few years, in order to allow changes and catch up with the new technology, the development community is using the agile software development, where the software develops gradually and this done between self-organizing cross-functional teams\cite{Moe:2014:NLD:2652524.2652584}. 
+For developing any business, software development is a core component \cite{HenrikK}. With great competition There has been a great investment in building high quality software. A software is developed in multi-site with multiple teams involved with a distributed environment. As discussed in \cite{4638656}Past few years, in order to allow changes and catch up with the new technology, the development community is using the agile software development, where the software develops gradually and this done between self-organizing cross-functional teams\cite{Moe:2014:NLD:2652524.2652584}. 
 
 This paper discusses some ways of achieving the practice of software development using agile method and the how different agile teams come together to build a software\cite{SunitP}. It also dicusses the challenges which agile principles help in overcome in projects which are distibuted. Along with this, some of the techniques which can be incorporated in order to handle those challenges.
 
@@ -79,7 +78,7 @@ The paper is structured as follows : Section 2 discusses the methods of obtainin
 \section{Main}
 
 \subsection{Methods to achieve successful Scrum of Scrums}
-The main challenges for working on a large project using multiple agile teams is communication, dependencies between components and interfacing those components. To achieve a successful project, following methods can be useful. 
+The main challenges for working on a large project using multiple agile teams is communication, dependencies between components and interfacing those components. To achieve a successful project, following methods can be useful\cite{SunitP}. 
 \begin{itemize}
 \item Separate Product Backlog for each team
 \\As shown in Figure \ref{fig:PBCollab}, it is very important that every team should have a strong product backlog in agile when working in a distributed envirenment. But, clear separation of work is equally important. Every day to day operations should be separated among the teams. Overlapping situations should be planned during the cross team meetings.
@@ -107,7 +106,7 @@ The main challenges for working on a large project using multiple agile teams is
 Architecture defines the structure of the project. A well defined architecure makes a base for a succesful project. As multiple teams work on a single project, it is important to have a fixed architecture so that different teams can work on different components of the architecture. If there is no fixed single plan, interfacing of the components would be a difficult task. Also, the architecure can get messed up if multiple teams update it. The integrity of the whole project can be affected if architecture is messed up.
 
 
-To overcome this problem, there should be a single Chief Architect (or two, working in a pair) who will guide the teams and ensures they do not stumble upon the architecure. Chief architect works on a high level architectural issues that involves all the components and inerfaces between them. 
+To overcome this problem, there should be a single Chief Architect (or two, working in a pair) who will guide the teams and ensures they do not stumble upon the architecure \cite{HenrikK}. Chief architect works on a high level architectural issues that involves all the components and inerfaces between them. 
 
 
 Another method would be to crete the Architecture group. It is composed of each team's most skilled person. This group handles all the arcitectural issues rather than one person handling them. The group should not exceed more than 20 people, else communication problem arises. The group understands the subsystem's relationships and the architecure as a whole. Thus, the group decides how each team works and handles the project. 
